@@ -1,9 +1,9 @@
 public class dataClass{
 
-	private String data ;
+	private String data = ""; 
 
 	protected String print(){
-		return data;
+		return "Data: " +  data ;
 	}
 
 }
